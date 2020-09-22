@@ -2,15 +2,15 @@ package edu.elsmancs.NumerosRomanos;
 
 public class RomansNumbers {
 	
-	public String number = null;
+	public String numeroRomano = null;
 	public int numeroDecimal = 0;
 	
-    public String getnumber() {
-        return number;
+    public String getNumeroRomano() {
+        return numeroRomano;
     }
 
-    public void setnumber(String number) {
-        this.number = number;
+    public void setNumeroRomano(String number) {
+        this.numeroRomano = number;
     }
 
     public int getNumeroDecimal() {
